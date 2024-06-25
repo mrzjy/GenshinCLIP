@@ -4,9 +4,9 @@ A simple opensourced SigLIP model fine-tuned on Genshin Impact's image-text pair
 The model is far from being perfect, but could still offer some better model performance in some Genshin Impact scenarios.
 
 ## Case Study
-| Id | Image | Choices                                                                                                                                | CLIPScore                                                                                         |
-|----|----------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
-| 1  |![Image](https://static.wikia.nocookie.net/gensin-impact/images/2/24/Ganyu_Card.png/revision/latest?cb=20230519012433)| 1) This is an image of Kuki Shinobu<br/>2) This is an image of Ganyu<br/>3) This is an image of Keqing<br/>4) This is an image of Liyue| 1) 5.20230969414115e-10<br/>2) 0.4375<br/>3) 2.4318695068359375e-05<br/>4) 1.2759119272232056e-07 |
+| Id | Image                                                                                                                                                                         | Choices                                                                                                                                | CLIPScore                                                                                         |
+|----|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------|
+| 1  | <img src="https://static.wikia.nocookie.net/gensin-impact/images/2/24/Ganyu_Card.png/revision/latest?cb=20230519012433" height="128">| 1) This is an image of Kuki Shinobu<br/>2) This is an image of Ganyu<br/>3) This is an image of Keqing<br/>4) This is an image of Liyue| 1) 5.20230969414115e-10<br/>2) 0.4375<br/>3) 2.4318695068359375e-05<br/>4) 1.2759119272232056e-07 |
 
 
 ## Training
