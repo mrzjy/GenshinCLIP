@@ -80,7 +80,7 @@ with torch.autocast(device_type=device.type):
 ## Model Card
 ### SigLIP for GenshinImpact
 
-[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 15k Genshin Impact English text-image pairs at resolution 384x384.
+[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 17k Genshin Impact English text-image pairs at resolution 384x384.
 
 ### Training data description
 
