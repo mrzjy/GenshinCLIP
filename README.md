@@ -22,7 +22,7 @@ Note: Case 4 is bad case.
 
 ### Training data description
 
-There're currently 15,564 (train) and 820 (validation) text-image pairs used for model training.
+There're currently 17,428 (train) and 918 (validation) text-image pairs used for model training.
 
 All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki) and are manually parsed to form text-image pairs.
 
