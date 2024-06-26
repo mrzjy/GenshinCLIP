@@ -3,6 +3,12 @@ A simple opensourced SigLIP model fine-tuned on Genshin Impact's image-text pair
 
 The model is far from being perfect, but could still offer some better text-image matching performance in some Genshin Impact scenarios.
 
+## Model Card
+
+| Model Name                             | Link                                                                               |
+|----------------------------------------|------------------------------------------------------------------------------------|
+| GenshinImpact-ViT-SO400M-14-SigLIP-384 | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-ViT-SO400M-14-SigLIP-384) |
+
 ## Case Study
 
 Note: Case 4 is bad case.
@@ -18,7 +24,7 @@ Note: Case 4 is bad case.
 ## Training
 ### SigLIP for GenshinImpact
 
-[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) fine-tuned on 15k Genshin Impact English text-image pairs at resolution 384x384.
+[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 15k Genshin Impact English text-image pairs at resolution 384x384.
 
 ### Training data description
 
@@ -26,6 +32,11 @@ There're currently 17,428 (train) and 918 (validation) text-image pairs used for
 
 All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki) and are manually parsed to form text-image pairs.
 
-The text could either be a simple caption attribute from html \<img\> tag, or specified text content on the web, together with some simple template to form a natural language (e.g., all texts are prepended with "Genshin Impact\n").
+**Image Processing:**
+- Size: Resize all images to 384x384 pixels to match the original model training settings.
+- Format: Accept images in PNG or GIF format. For GIFs, extract a random frame to create a static image for text-image pairs.
 
+**Text Processing:**
+- Source: Text can be from the simple caption attribute of an HTML `<img>` tag or specified web content.
+- Format: Prepend all texts with "Genshin Impact" along with some simple template to form natural language sentences.
 
