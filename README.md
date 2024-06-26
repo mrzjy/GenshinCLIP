@@ -96,6 +96,14 @@ All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-
 - Source: Text can be from the simple caption attribute of an HTML `<img>` tag or specified web content.
 - Format: Prepend all texts with "Genshin Impact" along with some simple template to form natural language sentences.
 
+For example, here are some training image-text pairs:
+```json lines
+{"text": "Genshin Impact\nThis is Tainted Water-Splitting Phantasm.\nTainted Hydro Phantasm Idle Waving 2", "image": "xxx.png"}
+{"text": "Genshin Impact\nThis is Annihilation Specialist Mek. Although the Fontaine Research Institute of Kinetic Energy Engineering is the main organization involved in clockwork meka research and design, there are also many independent engineers and workshops that are not affiliated with the Research Institute. The first ever machine of this type was designed by an independent engineer to commemorate their lover and sponsor. In the end, it was acquired by the Maison Gardiennage as a tool to uphold municipal security — or, as some would have it, state apparatus enforcing the monopoly on violence.", "image": "xxx.png"}
+{"text": "Genshin Impact\nCollei\nExpressions\na Smiley expression", "image": "xxx.png"}
+{"text": "Genshin Impact\nThis is the map of viewpoint Nine Pillars of Peace in Cuijue Slope, Minlin, Liyue\nNine shackles of stone were said to have been laid down deep in the valleys of Cuijue Slope to drive off evil and cleanse the world.", "image": "xxx.png"}
+```
+
 **Data Distribution:**
 
 ![data_distribution.png](img%2Fdata_distribution.png)
