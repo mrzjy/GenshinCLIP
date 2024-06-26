@@ -1,7 +1,7 @@
 # GenshinCLIP
 A simple opensourced SigLIP model fine-tuned on Genshin Impact's image-text pairs.
 
-The model is far from being perfect, but could still offer some better model performance in some Genshin Impact scenarios.
+The model is far from being perfect, but could still offer some better text-image matching performance in some Genshin Impact scenarios.
 
 ## Case Study
 
