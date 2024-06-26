@@ -3,7 +3,7 @@ A simple open-sourced SigLIP model fine-tuned on Genshin Impact's image-text pai
 
 The model is far from being perfect, but could still offer some better text-image matching performance in some Genshin Impact scenarios.
 
-## Model Card
+## Model Link
 
 | Model Name                             | Link                                                                               |
 |----------------------------------------|------------------------------------------------------------------------------------|
@@ -77,7 +77,7 @@ with torch.autocast(device_type=device.type):
         print(scores)  # [0.016, 0.000, 0.001, 0.233]
 ```
 
-## Training
+## Model Card
 ### SigLIP for GenshinImpact
 
 [SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 15k Genshin Impact English text-image pairs at resolution 384x384.
