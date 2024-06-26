@@ -109,6 +109,6 @@ For example, here are some training image-text pairs:
 
 ![data_distribution.png](img%2Fdata_distribution.png)
 
-### Validation Loss Curve
+**Validation Loss Curve**
 
 ![loss_curve.png](img%2Floss_curve.png)
