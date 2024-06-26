@@ -97,12 +97,13 @@ All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-
 - Format: Prepend all texts with "Genshin Impact" along with some simple template to form natural language sentences.
 
 For example, here are some training image-text pairs:
-```json lines
-{"text": "Genshin Impact\nThis is Tainted Water-Splitting Phantasm.\nTainted Hydro Phantasm Idle Waving 2", "image": "xxx.png"}
-{"text": "Genshin Impact\nThis is Annihilation Specialist Mek. Although the Fontaine Research Institute of Kinetic Energy Engineering is the main organization involved in clockwork meka research and design, there are also many independent engineers and workshops that are not affiliated with the Research Institute. The first ever machine of this type was designed by an independent engineer to commemorate their lover and sponsor. In the end, it was acquired by the Maison Gardiennage as a tool to uphold municipal security — or, as some would have it, state apparatus enforcing the monopoly on violence.", "image": "xxx.png"}
-{"text": "Genshin Impact\nCollei\nExpressions\na Smiley expression", "image": "xxx.png"}
-{"text": "Genshin Impact\nThis is the map of viewpoint Nine Pillars of Peace in Cuijue Slope, Minlin, Liyue\nNine shackles of stone were said to have been laid down deep in the valleys of Cuijue Slope to drive off evil and cleanse the world.", "image": "xxx.png"}
-```
+
+| Image                                                                | Text                                                                                                                                                                                                                                          |
+|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| <img src="img/9361c6fe-dabe-43b3-ae76-9731e4b73e1b.png" height="64"> | Genshin Impact<br/>This is Tainted Water-Splitting Phantasm.<br/>Tainted Hydro Phantasm Idle Waving 2                                                                                                                                         |
+| <img src="img/911d0f58-dc35-4dfb-9afc-79a2d582881b.png" height="64"> | Genshin Impact<br/>This is Annihilation Specialist Mek.<br/>Although the Fontaine Research Institute of Kinetic Energy Engineering... ..., state apparatus enforcing the monopoly on violence.                                                |
+| <img src="img/bd94b015-153f-41de-b8d4-049ba29481e3.png" height="64"> | Genshin Impact<br/>Collei<br/>Expressions<br/>a Smiley expression                                                                                                                                                                             |
+| <img src="img/36a956e1-e6af-43bc-a71b-a893fe1bcf9e.png" height="64"> | Genshin Impact<br/>This is the map of viewpoint Nine Pillars of Peace in Cuijue Slope, Minlin, Liyue<br/>Nine shackles of stone were said to have been laid down deep in the valleys of Cuijue Slope to drive off evil and cleanse the world. |
 
 **Data Distribution:**
 
