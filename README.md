@@ -40,3 +40,7 @@ All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-
 - Source: Text can be from the simple caption attribute of an HTML `<img>` tag or specified web content.
 - Format: Prepend all texts with "Genshin Impact" along with some simple template to form natural language sentences.
 
+The data distribution is as follows:
+
+![data_distribution.png](img%2Fdata_distribution.png)
+
