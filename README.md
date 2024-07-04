@@ -1,13 +1,14 @@
 # GenshinCLIP
-A simple open-sourced SigLIP model fine-tuned on Genshin Impact's image-text pairs.
+Simple open-sourced CLIP models fine-tuned on Genshin Impact's image-text pairs.
 
-The model is far from being perfect, but could still offer some better text-image matching performance in some Genshin Impact scenarios.
+The models are far from being perfect, but could still offer some better text-image matching performance in some Genshin Impact scenarios.
 
 ## Model Link
 
-| Model Name                             | Link                                                                               |
-|----------------------------------------|------------------------------------------------------------------------------------|
-| GenshinImpact-ViT-SO400M-14-SigLIP-384 | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-ViT-SO400M-14-SigLIP-384) |
+| Model Name                                    | Link                                                                                      | Checkpoint Size | Val Loss |
+|-----------------------------------------------|-------------------------------------------------------------------------------------------|-----------------|----------|
+| GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K) | 0.59 GB         | 1.152    |
+| GenshinImpact-ViT-SO400M-14-SigLIP-384        | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-ViT-SO400M-14-SigLIP-384)        | 3.51 GB         | 0.362    |
 
 ## Case Study
 
