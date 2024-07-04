@@ -12,6 +12,8 @@ The models are far from being perfect, but could still offer some better text-im
 
 ## Case Study
 
+- For GenshinImpact-ViT-SO400M-14-SigLIP-384
+
 | Case | Image                                                                                                                                              | Multiple Choices                                                                                                                        | CLIPScore<br/>(After Finetune)                   | CLIPScore<br/>(Before Finetune)                                     |
 |------|----------------------------------------------------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------|---------------------------------------------------------------------|
 | 1    | <img src="https://static.wikia.nocookie.net/gensin-impact/images/2/24/Ganyu_Card.png/revision/latest?cb=20230519012433" height="64">               | 1) This is an image of Kuki Shinobu<br/>2) This is an image of Ganyu<br/>3) This is an image of Keqing<br/>4) This is an image of Liyue | 1) 0.000<br>2) **0.438**<br>3) 0.000<br>4) 0.000 | 1) **1.207e-06**<br/>2) 4.144e-08<br/>3) 1.201e-07<br/>4) 2.212e-08 |
