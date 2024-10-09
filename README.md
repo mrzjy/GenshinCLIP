@@ -5,10 +5,11 @@ The models are far from being perfect, but could still offer some better text-im
 
 ## Model Link
 
-| Model Name                                    | Link                                                                                      | Checkpoint Size | Val Loss |
-|-----------------------------------------------|-------------------------------------------------------------------------------------------|-----------------|----------|
-| GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K) | 0.59 GB         | 1.152    |
-| GenshinImpact-ViT-SO400M-14-SigLIP-384        | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-ViT-SO400M-14-SigLIP-384)        | 3.51 GB         | 0.362    |
+| Dataset          | Model Name                                    | Link                                                                                      | Checkpoint Size | Val Loss |
+|------------------|-----------------------------------------------|-------------------------------------------------------------------------------------------|-----------------|----------|
+| Game Version 5.0 | GenshinImpact-5.0-ViT-SO400M-14-SigLIP-384    | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-5.0-ViT-SO400M-14-SigLIP-384)    | 3.51 GB         | 0.519    |
+| Game Version 4.x | GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-CLIP-ViT-B-16-laion2B-s34B-b88K) | 0.59 GB         | 1.152    |
+| Game Version 4.x | GenshinImpact-ViT-SO400M-14-SigLIP-384        | [Huggingface](https://huggingface.co/mrzjy/GenshinImpact-ViT-SO400M-14-SigLIP-384)        | 3.51 GB         | 0.362    |
 
 ## Case Study
 
@@ -83,11 +84,9 @@ with torch.autocast(device_type=device.type):
 ## Model Card
 ### SigLIP for GenshinImpact
 
-[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 17k Genshin Impact English text-image pairs at resolution 384x384.
+[SigLIP model](https://huggingface.co/timm/ViT-SO400M-14-SigLIP-384) further fine-tuned on 15k Genshin Impact English text-image pairs at resolution 384x384.
 
 ### Training data description
-
-There're currently 17,428 (train) and 918 (validation) text-image pairs used for model training.
 
 All the images and texts are crawled from [Genshin Fandom Wiki](https://genshin-impact.fandom.com/wiki) and are manually parsed to form text-image pairs.
 
@@ -110,7 +109,10 @@ For example, here are some training image-text pairs:
 
 **Data Distribution:**
 
-![data_distribution.png](img%2Fdata_distribution.png)
+| 5.0                                                    | 4.x                                                |
+|--------------------------------------------------------|----------------------------------------------------|
+| <img src="img/data_distribution_5.0.png" height="196"> | <img src="img/data_distribution.png" height="196"> |
+
 
 **Validation Loss Curve**
 
